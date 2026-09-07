@@ -1,6 +1,5 @@
 # 📝 HTML Practical Assignment: The Academic Timetable
 * **Time Limit:** 30 Minutes  
-* **Total Marks:** 20 Marks  
 * **Allowed Tools:** VS Code & Live Server  
 * **Constraints:** Pure HTML only. **No CSS allowed.** Use only standard HTML table attributes (`border`, `cellpadding`, `cellspacing`, `bgcolor`) for styling.
 
@@ -70,20 +69,6 @@ Your final table should look exactly like this grid structure when rendered in t
 2. Add an anchor link (`<a>`) that points to the official university portal `https://www.w3schools.com` (as a placeholder).
 3. Ensure the link opens in a **brand new tab** using the correct target attribute.
 
----
-
-## 📊 Grading Rubric (For Teacher Reference)
-| Component | Metric | Marks |
-| :--- | :--- | :--- |
-| **Skeleton & Head** | Valid DocType, UTF-8 charset, viewport, and title | 3 Marks |
-| **Header Elements** | Headings, semantic formatting (`<strong>`/`<em>`), `<hr>` line | 3 Marks |
-| **Table Attributes** | Pure HTML borders, paddings, cellspacing, and background | 4 Marks |
-| **Cell Merging** | Flawless horizontal (`colspan`) and vertical (`rowspan`) configurations | 8 Marks |
-| **Hyperlinks** | Anchor tag with external target redirection | 2 Marks |
-| **Total** | | **20 Marks** |
-
----
----
 
 
 </body>
