@@ -1,5 +1,4 @@
 # 📝 HTML Practical Assignment: The Academic Timetable
-* **Time Limit:** 30 Minutes  
 * **Allowed Tools:** VS Code & Live Server  
 * **Constraints:** Pure HTML only. **No CSS allowed.** Use only standard HTML table attributes (`border`, `cellpadding`, `cellspacing`, `bgcolor`) for styling.
 
