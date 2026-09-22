@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<!-- 
+DAY 4 MASTER TEMPLATE
+TOPIC: FORMS & USER INPUT
+
+This is a FULL real-world form page
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 - Forms</title>
+</head>
+
+<body>
+
+<h1>User Forms - Day 4</h1>
+
+<hr>
+
+<!-- ============================= -->
+<!-- LOGIN FORM -->
+<!-- ============================= -->
+
+<h2>Login Form</h2>
+
+<form action="https://www.amazon.in/s" method="GET">
+
+    <!-- USERNAME -->
+    <label for="login_username">Username:</label><br>
+    <input 
+        type="text" 
+        id="login_username" 
+        name="k" 
+        placeholder="Enter username"
+        required
+        minlength="3"
+        value="asdfgjkl"
+    >
+    <br><br>
+
+    <!-- PASSWORD -->
+    <!-- <label for="login_password">Password:</label><br>
+    <input 
+        type="password" 
+        id="login_password"
+        name="password"
+        placeholder="Enter password"
+        required
+        minlength="6"
+    > -->
+    <br><br>
+
+    <!-- SUBMIT BUTTON -->
+    <input type="submit">
+
+</form>
+
+<hr>
+
+<!-- ============================= -->
+<!-- REGISTRATION FORM -->
+<!-- ============================= -->
+
+<h2>Registration Form</h2>
+
+<form action="/register" method="POST">
+
+    <!-- NAME -->
+    <label for="name">Full Name:</label><br>
+    <input 
+        type="text"
+        id="name"
+        name="fullname"
+        placeholder="Enter full name"
+        required
+    >
+    <br><br>
+
+    <!-- EMAIL -->
+    <label for="email">Email:</label><br>
+    <input 
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter email"
+        required
+    >
+    <br><br>
+
+    <!-- PASSWORD -->
+    <label for="reg_password">Password:</label><br>
+    <input 
+        type="password"
+        id="reg_password"
+        name="password"
+        minlength="6"
+        required
+    >
+    <br><br>
+
+    <!-- AGE -->
+    <label for="age">Age:</label><br>
+    <input 
+        type="number"
+        id="age"
+        name="age"
+        min="1"
+        max="100"
+    >
+    <br><br>
+
+    <!-- DATE -->
+    <label for="dob">Date of Birth:</label><br>
+    <input 
+        type="date"
+        id="dob"
+        name="dob"
+    >
+    <br><br>
+
+    <!-- GENDER (RADIO) -->
+    <p>Gender:</p>
+
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    
+    
+    
+    <input type="radio" name="gender" value="male" placeholder="male"  id="male" >
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="female" placeholder="female" id="female" >
+    <label for="female">Female</label>
+
+    
+
+    <br><br>
+
+    <!-- HOBBIES (CHECKBOX) -->
+    <p>Hobbies:</p>
+
+    <input type="checkbox" id="reading" name="hobby" value="reading">
+    <label for="reading">Reading</label>
+
+    <input type="checkbox" id="sports" name="hobby" value="sports">
+    <label for="sports">Sports</label>
+
+    <input type="checkbox" id="music" name="hobby" value="music">
+    <label for="music">Music</label>
+
+    <br><br>
+
+    <!-- DROPDOWN -->
+    <label for="course">Select Course:</label><br>
+
+    <select id="course" name="course">
+
+        <option value="">--Select--</option>
+        <option value="btech">B.Tech</option>
+        <option value="bca">BCA</option>
+        <option value="mca">MCA</option>
+
+    </select>
+
+    <br><br>
+
+    <!-- FILE UPLOAD -->
+    <label for="resume">Upload Resume:</label><br>
+
+    <input 
+        type="file"
+        id="resume"
+        name="resume"
+    >
+
+    <br><br>
+
+    <!-- TEXTAREA -->
+    <label for="bio">Short Bio:</label><br>
+
+    <textarea 
+        id="bio"
+        name="bio"
+        rows="4"
+        cols="30"
+        placeholder="Write about yourself..."
+    ></textarea>
+
+    <br><br>
+
+    <!-- SUBMIT -->
+    <input type="submit" value="Register">
+
+</form>
+
+<hr>
+
+<!-- ============================= -->
+<!-- FEEDBACK FORM -->
+<!-- ============================= -->
+
+<h2>Feedback Form</h2>
+
+<form action="/feedback" method="POST">
+
+    <label for="feedback_name">Name:</label><br>
+    <input type="text" id="feedback_name" name="name" required>
+
+    <br><br>
+
+    <label for="rating">Rating:</label><br>
+
+    <select id="rating" name="rating">
+        <option>Excellent</option>
+        <option>Good</option>
+        <option>Average</option>
+        <option>Poor</option>
+    </select>
+
+    <br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message"></textarea>
+
+    <br><br>
+
+    <input type="submit" value="Submit Feedback">
+
+</form>
+
+<hr>
+
+<p>End of Day 4 Forms Practice</p>
+
+</body>
+
+</html>
